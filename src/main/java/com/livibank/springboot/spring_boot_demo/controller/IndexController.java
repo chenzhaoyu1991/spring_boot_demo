@@ -3,6 +3,7 @@ package com.livibank.springboot.spring_boot_demo.controller;
 import com.livibank.springboot.spring_boot_demo.InjectValue;
 import com.livibank.springboot.spring_boot_demo.Permission;
 import com.livibank.springboot.spring_boot_demo.Type;
+import com.sun.org.apache.xml.internal.res.XMLErrorResources_tr;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -28,5 +29,8 @@ public class IndexController {
     }
     public void test(){
         System.out.println("hellowrold");
+    }
+    public void print1(){
+        System.out.println("第一次打印");
     }
 }
