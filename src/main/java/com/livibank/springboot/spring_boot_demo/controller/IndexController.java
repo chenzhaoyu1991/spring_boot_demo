@@ -26,4 +26,7 @@ public class IndexController {
         System.out.println("custNo: " + custNo);
         return custNo;
     }
+    public void test(){
+        System.out.println("hellowrold");
+    }
 }
