@@ -33,4 +33,7 @@ public class IndexController {
     public void print1(){
         System.out.println("第一次打印");
     }
+    public void print2(){
+        System.out.println("第二次打印");
+    }
 }
