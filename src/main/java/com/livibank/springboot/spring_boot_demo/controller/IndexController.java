@@ -20,4 +20,10 @@ public class IndexController {
         System.out.println("accountNo:" + custNo);
         return custNo;
     }
+
+    @RequestMapping(value = "/{custNo}")
+    public String testPath(@PathVariable("custNo") String custNo) {
+        System.out.println("custNo: " + custNo);
+        return custNo;
+    }
 }
